@@ -1,0 +1,143 @@
+[gd_scene load_steps=20 format=3 uid="uid://4kk62okastna"]
+
+[ext_resource type="Script" path="res://Scripts/enemy.gd" id="1_26vxb"]
+[ext_resource type="Texture2D" uid="uid://bhtd3deyp4rv" path="res://Assests/Idle_E(32x32).png" id="1_x4lm5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tkdsf"]
+atlas = ExtResource("1_x4lm5")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f8n13"]
+atlas = ExtResource("1_x4lm5")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b8djl"]
+atlas = ExtResource("1_x4lm5")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_weh7d"]
+atlas = ExtResource("1_x4lm5")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pttwr"]
+atlas = ExtResource("1_x4lm5")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fs2xy"]
+atlas = ExtResource("1_x4lm5")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ldfco"]
+atlas = ExtResource("1_x4lm5")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yk080"]
+atlas = ExtResource("1_x4lm5")
+region = Rect2(224, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wolk7"]
+atlas = ExtResource("1_x4lm5")
+region = Rect2(256, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4oqre"]
+atlas = ExtResource("1_x4lm5")
+region = Rect2(288, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dylpd"]
+atlas = ExtResource("1_x4lm5")
+region = Rect2(320, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i4cel"]
+atlas = ExtResource("1_x4lm5")
+region = Rect2(352, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3jqpy"]
+atlas = ExtResource("1_x4lm5")
+region = Rect2(384, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xgjfg"]
+atlas = ExtResource("1_x4lm5")
+region = Rect2(416, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lsgvt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tkdsf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f8n13")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b8djl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_weh7d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pttwr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fs2xy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ldfco")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yk080")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wolk7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4oqre")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dylpd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i4cel")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3jqpy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xgjfg")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 12.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_84ind"]
+size = Vector2(78, 59)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jvnva"]
+size = Vector2(83, 64)
+
+[node name="Enemy" type="RigidBody2D"]
+script = ExtResource("1_26vxb")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_lsgvt")
+animation = &"idle"
+autoplay = "idle"
+frame = 5
+frame_progress = 0.320239
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 17.5)
+shape = SubResource("RectangleShape2D_84ind")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-0.5, 18)
+shape = SubResource("RectangleShape2D_jvnva")
+
+[node name="Timer" type="Timer" parent="Area2D"]
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="timeout" from="Area2D/Timer" to="." method="_on_timer_timeout"]
