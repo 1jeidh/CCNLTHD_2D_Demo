@@ -1,0 +1,21 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1740742887
+icon.svg::CompressedTexture2D::8868208898125423562::1740742616::1740742889::1::::<><>::
+::res://Assests/::1740742616
+Green.png::CompressedTexture2D::1418252816127075472::1740742616::1740742889::1::::<><>::
+Idle_C(32x32).png::CompressedTexture2D::494300796547695857::1740742616::1740742889::1::::<><>::
+Idle_E(32x32).png::CompressedTexture2D::85799943663383043::1740742616::1740742889::1::::<><>::
+Jump (32x32).png::CompressedTexture2D::6254480485629468054::1740742616::1740742889::1::::<><>::
+Run (32x32).png::CompressedTexture2D::7439944156888197656::1740742616::1740742889::1::::<><>::
+Strawberry.png::CompressedTexture2D::3554570773803628201::1740742616::1740742889::1::::<><>::
+Terrain (16x16).png::CompressedTexture2D::1257225134621420551::1740742616::1740742889::1::::<><>::
+::res://Scenes/::1740742616
+character_body_2d.tscn::PackedScene::7493478307330430063::1740742616::0::1::::<><>::uid://hbpcds7ng11v::::res://Assests/Idle_C(32x32).png<>uid://cvdym6b7e556q::::res://Assests/Jump (32x32).png<>uid://dd8718a4joj0c::::res://Assests/Run (32x32).png
+enemy.tscn::PackedScene::2056784212795053142::1740742616::0::1::::<><>::res://Scripts/enemy.gd<>uid://bhtd3deyp4rv::::res://Assests/Idle_E(32x32).png
+fruit.tscn::PackedScene::8055875630271178447::1740742616::0::1::::<><>::uid://bqv4i5cy8p5mr::::res://Assests/Strawberry.png<>res://Scripts/fruit.gd
+main.tscn::PackedScene::732176228267744945::1740742616::0::1::::<><>::uid://uhaofw5f4hsy::::res://Assests/Green.png<>uid://r6akxkvprlu2::::res://Assests/Terrain (16x16).png<>uid://de05q02mrpwcl::::res://Scenes/character_body_2d.tscn<>res://Scripts/character_body_2d.gd<>uid://dm1ldhohoicnn::::res://Scenes/fruit.tscn<>res://Scripts/game_manager.gd<>uid://4kk62okastna::::res://Scenes/enemy.tscn
+::res://Scripts/::1740742616
+character_body_2d.gd::GDScript::-1::1740742616::0::1::::<>CharacterBody2D<>::
+enemy.gd::GDScript::-1::1740742616::0::1::::<>RigidBody2D<>::
+fruit.gd::GDScript::-1::1740742616::0::1::::<>Area2D<>::
+game_manager.gd::GDScript::-1::1740742616::0::1::::<>Node<>::
