@@ -267,10 +267,10 @@ vertical_alignment = 1
 [node name="Enemies" type="Node" parent="."]
 
 [node name="Enemy" parent="Enemies" instance=ExtResource("7_qdya4")]
-position = Vector2(627, 434)
+position = Vector2(626, 431)
 
 [node name="Enemy2" parent="Enemies" instance=ExtResource("7_qdya4")]
-position = Vector2(1967, 528)
+position = Vector2(1966, 528)
 
 [node name="Enemy3" parent="Enemies" instance=ExtResource("7_qdya4")]
-position = Vector2(506, 146)
+position = Vector2(505, 144)

@@ -1,1 +1,5 @@
+res://Scenes/enemy.tscn
 res://Scenes/main.tscn
+res://Scripts/enemy.gd
+res://Scenes/fruit.tscn
+res://Scripts/character_body_2d.gd
