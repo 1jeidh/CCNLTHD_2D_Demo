@@ -1,0 +1,5 @@
+res://Scenes/main.tscn
+res://Scenes/enemy_slime.tscn
+res://Scripts/enemy_slime.gd
+res://Scenes/fruit.tscn
+res://Scenes/enemy_mushroom.tscn

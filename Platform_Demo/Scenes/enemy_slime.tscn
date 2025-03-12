@@ -82,7 +82,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jvnva"]
-size = Vector2(89, 79)
+size = Vector2(84, 79)
 
 [node name="Enemy_Slime" type="Node2D"]
 script = ExtResource("1_jnqbx")
@@ -97,12 +97,20 @@ frame = 6
 frame_progress = 0.412529
 
 [node name="Area2D" type="Area2D" parent="."]
+collision_layer = 8
+collision_mask = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(-0.5, 3.5)
+position = Vector2(0, 3.5)
 shape = SubResource("RectangleShape2D_jvnva")
 
 [node name="Timer" type="Timer" parent="Area2D"]
+
+[node name="RayCast2D_Left" type="RayCast2D" parent="."]
+target_position = Vector2(-56, 0)
+
+[node name="RayCast2D_Right" type="RayCast2D" parent="."]
+target_position = Vector2(56, 0)
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
 [connection signal="timeout" from="Area2D/Timer" to="." method="_on_timer_timeout"]
