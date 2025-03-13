@@ -1,7 +1,3 @@
-res://Scenes/level2.tscn
-res://Scenes/main_menu.tscn
-res://Scripts/main_menu.gd
-res://Scenes/finish.tscn
-res://Scripts/finish.gd
 res://Scenes/level1.tscn
-res://Scenes/fruit.tscn
+res://Scenes/level2.tscn
+res://Scripts/finish.gd

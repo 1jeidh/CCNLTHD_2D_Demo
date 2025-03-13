@@ -331,7 +331,7 @@ position = Vector2(505, 144)
 position = Vector2(2766, 339)
 
 [node name="Finish" parent="Scene_Objects" instance=ExtResource("9_folbn")]
-position = Vector2(3371, 480)
+position = Vector2(3376, 480)
 target_level = ExtResource("10_t7vm1")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
