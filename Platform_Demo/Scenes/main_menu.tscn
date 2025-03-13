@@ -1,0 +1,51 @@
+[gd_scene load_steps=4 format=3 uid="uid://d2a1606233rit"]
+
+[ext_resource type="Script" path="res://Scripts/main_menu.gd" id="1_greoh"]
+[ext_resource type="Texture2D" uid="uid://dc2smpc547oec" path="res://Assests/logo.png" id="1_l56dd"]
+[ext_resource type="Texture2D" uid="uid://ce0hl7elfqrrx" path="res://Assests/Brown.png" id="1_plkvx"]
+
+[node name="MainMenu" type="Node"]
+script = ExtResource("1_greoh")
+
+[node name="TextureRect_Logo" type="TextureRect" parent="."]
+z_index = 1
+texture_filter = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -242.0
+offset_top = -47.5
+offset_right = 242.0
+offset_bottom = 47.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_l56dd")
+
+[node name="TextureRect_Background" type="TextureRect" parent="."]
+texture_filter = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_plkvx")
+stretch_mode = 1
+
+[node name="Button" type="Button" parent="."]
+texture_filter = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -66.0
+offset_top = 62.0
+offset_right = 67.0
+offset_bottom = 119.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Start"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

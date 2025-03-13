@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://kow3n31pyab6"]
+[gd_scene load_steps=13 format=3 uid="uid://kow3n31pyab6"]
 
 [ext_resource type="Script" path="res://Scripts/game_manager.gd" id="1_wjfk8"]
 [ext_resource type="Texture2D" uid="uid://uhaofw5f4hsy" path="res://Assests/Green.png" id="2_ilmpt"]
@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://4kk62okastna" path="res://Scenes/enemy_mushroom.tscn" id="7_kbadw"]
 [ext_resource type="PackedScene" uid="uid://cx3e8xgqro54g" path="res://Scenes/enemy_slime.tscn" id="8_m3e2g"]
 [ext_resource type="PackedScene" uid="uid://o7atinxpapvy" path="res://Scenes/finish.tscn" id="9_folbn"]
+[ext_resource type="PackedScene" uid="uid://drhqoglrnha6n" path="res://Scenes/level2.tscn" id="10_t7vm1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5xu8j"]
 texture = ExtResource("3_hrcfp")
@@ -331,6 +332,7 @@ position = Vector2(2766, 339)
 
 [node name="Finish" parent="Scene_Objects" instance=ExtResource("9_folbn")]
 position = Vector2(3371, 480)
+target_level = ExtResource("10_t7vm1")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
