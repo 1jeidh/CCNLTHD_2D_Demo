@@ -1,5 +1,3 @@
-res://Scenes/main.tscn
-res://Scenes/enemy_slime.tscn
-res://Scripts/enemy_slime.gd
-res://Scenes/fruit.tscn
-res://Scenes/enemy_mushroom.tscn
+res://Scenes/level2.tscn
+res://Scenes/character_body_2d.tscn
+res://Scenes/level1.tscn

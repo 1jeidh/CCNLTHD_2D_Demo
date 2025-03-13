@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://o7atinxpapvy"]
+
+[ext_resource type="Texture2D" uid="uid://b7skjgvn3ti8m" path="res://Assests/End (Idle).png" id="1_8vnia"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gl4fw"]
+size = Vector2(138, 132)
+
+[node name="Finish" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(3, 3)
+texture = ExtResource("1_8vnia")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 30)
+shape = SubResource("RectangleShape2D_gl4fw")
