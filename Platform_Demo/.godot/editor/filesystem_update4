@@ -1,3 +1,6 @@
-res://Scenes/level1.tscn
 res://Scenes/level2.tscn
-res://Scripts/finish.gd
+res://Scenes/level1.tscn
+res://Scenes/enemy_bird.tscn
+res://Scripts/enemy_bird.gd
+res://Scripts/enemy_slime.gd
+res://Scenes/enemy_slime.tscn
