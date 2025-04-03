@@ -7,10 +7,6 @@ const SPEED = 150.0
 var is_following = false
 var player: Node2D = null 
 
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	if is_following and player != null:

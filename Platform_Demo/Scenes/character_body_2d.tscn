@@ -203,11 +203,11 @@ scale = Vector2(3, 3)
 sprite_frames = SubResource("SpriteFrames_y0rsw")
 animation = &"idle"
 autoplay = "idle"
-frame = 9
-frame_progress = 0.219082
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 10)
 shape = SubResource("CapsuleShape2D_egkwb")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+position_smoothing_enabled = true
+position_smoothing_speed = 3.0

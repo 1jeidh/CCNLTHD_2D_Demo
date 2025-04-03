@@ -272,9 +272,6 @@ script = ExtResource("5_n6srs")
 
 [node name="Fruits" type="Node" parent="Scene_Objects"]
 
-[node name="Fruit13" parent="Scene_Objects/Fruits" instance=ExtResource("6_veekx")]
-position = Vector2(2109, 169)
-
 [node name="Fruit" parent="Scene_Objects/Fruits" instance=ExtResource("6_veekx")]
 position = Vector2(383, 170)
 
@@ -310,6 +307,9 @@ position = Vector2(2038, 455)
 
 [node name="Fruit12" parent="Scene_Objects/Fruits" instance=ExtResource("6_veekx")]
 position = Vector2(2249, 406)
+
+[node name="Fruit13" parent="Scene_Objects/Fruits" instance=ExtResource("6_veekx")]
+position = Vector2(2109, 169)
 
 [node name="Fruit14" parent="Scene_Objects/Fruits" instance=ExtResource("6_veekx")]
 position = Vector2(2494, 265)

@@ -1,35 +1,37 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1743469711
-::res://Assests/::1743471736
-Blue.png::CompressedTexture2D::5907023710619173157::1743468874::1743469714::1::::<><>::
-Brown.png::CompressedTexture2D::5105652535905687885::1743468874::1743469714::1::::<><>::
-End (Idle).png::CompressedTexture2D::4670246069965850694::1743468874::1743469714::1::::<><>::
-Flying (32x32).png::CompressedTexture2D::2441403870064000918::1743471736::1743471736::1::::<><>::
-Green.png::CompressedTexture2D::1418252816127075472::1743468874::1743469714::1::::<><>::
-icon.svg::CompressedTexture2D::8868208898125423562::1743468874::1743469714::1::::<><>::
-Idle-Run (44x30).png::CompressedTexture2D::1575758772316277543::1743468874::1743469714::1::::<><>::
-Idle_C(32x32).png::CompressedTexture2D::494300796547695857::1743468874::1743469714::1::::<><>::
-Idle_E(32x32).png::CompressedTexture2D::85799943663383043::1743468874::1743469714::1::::<><>::
-Jump (32x32).png::CompressedTexture2D::6254480485629468054::1743468874::1743469714::1::::<><>::
-logo.png::CompressedTexture2D::7356493065454588498::1743468874::1743469714::1::::<><>::
-Run (32x32).png::CompressedTexture2D::7439944156888197656::1743468874::1743469714::1::::<><>::
-Strawberry.png::CompressedTexture2D::3554570773803628201::1743468874::1743469714::1::::<><>::
-Terrain (16x16).png::CompressedTexture2D::1257225134621420551::1743468874::1743469714::1::::<><>::
-Yellow.png::CompressedTexture2D::9009630881258073743::1743468874::1743469714::1::::<><>::
-::res://Scenes/::1743469905
-character_body_2d.tscn::PackedScene::7493478307330430063::1743468874::0::1::::<><>::uid://hbpcds7ng11v::::res://Assests/Idle_C(32x32).png<>uid://cvdym6b7e556q::::res://Assests/Jump (32x32).png<>uid://dd8718a4joj0c::::res://Assests/Run (32x32).png
-enemy_mushroom.tscn::PackedScene::2056784212795053142::1743468874::0::1::::<><>::res://Scripts/enemy_mushroom.gd<>uid://bhtd3deyp4rv::::res://Assests/Idle_E(32x32).png
-enemy_slime.tscn::PackedScene::6445290365400698328::1743468874::0::1::::<><>::res://Scripts/enemy_slime.gd<>uid://wpkrtmxnxusl::::res://Assests/Idle-Run (44x30).png
-finish.tscn::PackedScene::1048738270480895662::1743468874::0::1::::<><>::uid://b7skjgvn3ti8m::::res://Assests/End (Idle).png<>res://Scripts/finish.gd
-fruit.tscn::PackedScene::8055875630271178447::1743468874::0::1::::<><>::uid://bqv4i5cy8p5mr::::res://Assests/Strawberry.png<>res://Scripts/fruit.gd
-level1.tscn::PackedScene::732176228267744945::1743468874::0::1::::<><>::res://Scripts/game_manager.gd<>uid://uhaofw5f4hsy::::res://Assests/Green.png<>uid://r6akxkvprlu2::::res://Assests/Terrain (16x16).png<>uid://de05q02mrpwcl::::res://Scenes/character_body_2d.tscn<>res://Scripts/character_body_2d.gd<>uid://dm1ldhohoicnn::::res://Scenes/fruit.tscn<>uid://4kk62okastna::::res://Scenes/enemy_mushroom.tscn<>uid://cx3e8xgqro54g::::res://Scenes/enemy_slime.tscn<>uid://o7atinxpapvy::::res://Scenes/finish.tscn<>uid://drhqoglrnha6n::::res://Scenes/level2.tscn
-level2.tscn::PackedScene::8367919843126204307::1743469905::0::1::::<><>::res://Scripts/game_manager.gd<>uid://d1mlkl03ym4dv::::res://Assests/Yellow.png<>uid://r6akxkvprlu2::::res://Assests/Terrain (16x16).png<>uid://de05q02mrpwcl::::res://Scenes/character_body_2d.tscn<>res://Scripts/character_body_2d.gd<>uid://cx3e8xgqro54g::::res://Scenes/enemy_slime.tscn<>uid://4kk62okastna::::res://Scenes/enemy_mushroom.tscn<>uid://dm1ldhohoicnn::::res://Scenes/fruit.tscn<>uid://o7atinxpapvy::::res://Scenes/finish.tscn<>uid://d2a1606233rit::::res://Scenes/main_menu.tscn
-main_menu.tscn::PackedScene::9055996192967142183::1743468874::0::1::::<><>::res://Scripts/main_menu.gd<>uid://dc2smpc547oec::::res://Assests/logo.png<>uid://ce0hl7elfqrrx::::res://Assests/Brown.png
-::res://Scripts/::1743468874
-character_body_2d.gd::GDScript::-1::1743468874::0::1::::<>CharacterBody2D<>::
-enemy_mushroom.gd::GDScript::-1::1743468874::0::1::::<>Node2D<>::
-enemy_slime.gd::GDScript::-1::1743468874::0::1::::<>Node2D<>::
-finish.gd::GDScript::-1::1743468874::0::1::::<>Area2D<>::
-fruit.gd::GDScript::-1::1743468874::0::1::::<>Area2D<>::
-game_manager.gd::GDScript::-1::1743468874::0::1::::<>Node<>::
-main_menu.gd::GDScript::-1::1743468874::0::1::::<>Node<>::
+::res://::1743654575
+::res://Assests/::1743578887
+Blue.png::CompressedTexture2D::5907023710619173157::1743578216::1743578887::1::::<><>::
+Brown.png::CompressedTexture2D::5105652535905687885::1743578216::1743578887::1::::<><>::
+End (Idle).png::CompressedTexture2D::4670246069965850694::1743578216::1743578887::1::::<><>::
+Flying (32x32).png::CompressedTexture2D::2441403870064000918::1743578216::1743578887::1::::<><>::
+Green.png::CompressedTexture2D::1418252816127075472::1743578216::1743578887::1::::<><>::
+icon.svg::CompressedTexture2D::8868208898125423562::1743578216::1743578887::1::::<><>::
+Idle-Run (44x30).png::CompressedTexture2D::1575758772316277543::1743578216::1743578887::1::::<><>::
+Idle_C(32x32).png::CompressedTexture2D::494300796547695857::1743578216::1743578887::1::::<><>::
+Idle_E(32x32).png::CompressedTexture2D::85799943663383043::1743578216::1743578887::1::::<><>::
+Jump (32x32).png::CompressedTexture2D::6254480485629468054::1743578216::1743578887::1::::<><>::
+logo.png::CompressedTexture2D::7356493065454588498::1743578216::1743578887::1::::<><>::
+Run (32x32).png::CompressedTexture2D::7439944156888197656::1743578216::1743578887::1::::<><>::
+Strawberry.png::CompressedTexture2D::3554570773803628201::1743578216::1743578887::1::::<><>::
+Terrain (16x16).png::CompressedTexture2D::1257225134621420551::1743578216::1743578887::1::::<><>::
+Yellow.png::CompressedTexture2D::9009630881258073743::1743578216::1743578887::1::::<><>::
+::res://Scenes/::1743622661
+character_body_2d.tscn::PackedScene::7493478307330430063::1743621981::0::1::::<><>::uid://hbpcds7ng11v::::res://Assests/Idle_C(32x32).png<>uid://cvdym6b7e556q::::res://Assests/Jump (32x32).png<>uid://dd8718a4joj0c::::res://Assests/Run (32x32).png
+enemy_bird.tscn::PackedScene::8340204090165174538::1743578216::0::1::::<><>::uid://ba1vthgt3ci7g::::res://Assests/Flying (32x32).png<>res://Scripts/enemy_bird.gd
+enemy_mushroom.tscn::PackedScene::2056784212795053142::1743622661::0::1::::<><>::res://Scripts/enemy_mushroom.gd<>uid://bhtd3deyp4rv::::res://Assests/Idle_E(32x32).png
+enemy_slime.tscn::PackedScene::6445290365400698328::1743622370::0::1::::<><>::res://Scripts/enemy_slime.gd<>uid://wpkrtmxnxusl::::res://Assests/Idle-Run (44x30).png
+finish.tscn::PackedScene::1048738270480895662::1743578216::0::1::::<><>::uid://b7skjgvn3ti8m::::res://Assests/End (Idle).png<>res://Scripts/finish.gd
+fruit.tscn::PackedScene::8055875630271178447::1743578216::0::1::::<><>::uid://bqv4i5cy8p5mr::::res://Assests/Strawberry.png<>res://Scripts/fruit.gd
+level1.tscn::PackedScene::732176228267744945::1743621952::0::1::::<><>::res://Scripts/game_manager.gd<>uid://uhaofw5f4hsy::::res://Assests/Green.png<>uid://r6akxkvprlu2::::res://Assests/Terrain (16x16).png<>uid://de05q02mrpwcl::::res://Scenes/character_body_2d.tscn<>res://Scripts/character_body_2d.gd<>uid://dm1ldhohoicnn::::res://Scenes/fruit.tscn<>uid://4kk62okastna::::res://Scenes/enemy_mushroom.tscn<>uid://cx3e8xgqro54g::::res://Scenes/enemy_slime.tscn<>uid://dq3b7b6u8v6py::::res://Scenes/enemy_bird.tscn<>uid://o7atinxpapvy::::res://Scenes/finish.tscn<>uid://drhqoglrnha6n::::res://Scenes/level2.tscn
+level2.tscn::PackedScene::8367919843126204307::1743578216::0::1::::<><>::res://Scripts/game_manager.gd<>uid://d1mlkl03ym4dv::::res://Assests/Yellow.png<>uid://r6akxkvprlu2::::res://Assests/Terrain (16x16).png<>uid://de05q02mrpwcl::::res://Scenes/character_body_2d.tscn<>res://Scripts/character_body_2d.gd<>uid://cx3e8xgqro54g::::res://Scenes/enemy_slime.tscn<>uid://4kk62okastna::::res://Scenes/enemy_mushroom.tscn<>uid://dm1ldhohoicnn::::res://Scenes/fruit.tscn<>uid://o7atinxpapvy::::res://Scenes/finish.tscn<>uid://d2a1606233rit::::res://Scenes/main_menu.tscn
+main_menu.tscn::PackedScene::9055996192967142183::1743578216::0::1::::<><>::res://Scripts/main_menu.gd<>uid://dc2smpc547oec::::res://Assests/logo.png<>uid://ce0hl7elfqrrx::::res://Assests/Brown.png
+::res://Scripts/::1743578216
+character_body_2d.gd::GDScript::-1::1743578216::0::1::::<>CharacterBody2D<>::
+enemy_bird.gd::GDScript::-1::1743578216::0::1::::<>Node2D<>::
+enemy_mushroom.gd::GDScript::-1::1743578216::0::1::::<>Node2D<>::
+enemy_slime.gd::GDScript::-1::1743578216::0::1::::<>Node2D<>::
+finish.gd::GDScript::-1::1743578216::0::1::::<>Area2D<>::
+fruit.gd::GDScript::-1::1743578216::0::1::::<>Area2D<>::
+game_manager.gd::GDScript::-1::1743578216::0::1::::<>Node<>::
+main_menu.gd::GDScript::-1::1743578216::0::1::::<>Node<>::
